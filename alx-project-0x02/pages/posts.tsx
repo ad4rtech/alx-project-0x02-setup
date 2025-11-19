@@ -1,11 +1,11 @@
 import React from "react";
 import Header from "@/components/layout/Header";
 
-export default function AboutPage() {
+export default function PostsPage() {
   return (
     <div>
       <Header />
-      <h1>About Page</h1>
+      <h1>Posts Page</h1>
     </div>
   );
 }
