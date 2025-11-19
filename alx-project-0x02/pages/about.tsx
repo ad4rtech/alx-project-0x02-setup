@@ -1,12 +1,32 @@
-import Header from "../components/layout/Header";
+import React from "react";
+import Button from "@/components/common/Button";
 
 export default function AboutPage() {
   return (
-    <div className="min-h-screen bg-gray-100">
-      <Header />
-      <main className="flex items-center justify-center h-full py-20">
-        <h1 className="text-4xl font-bold text-gray-800">About Page</h1>
-      </main>
+    <div style={{ padding: 20 }}>
+      <h1>About Page</h1>
+
+      <Button
+        label="Small Button"
+        size="small"
+        shape="rounded-sm"
+      />
+
+      <br /><br />
+
+      <Button
+        label="Medium Button"
+        size="medium"
+        shape="rounded-md"
+      />
+
+      <br /><br />
+
+      <Button
+        label="Large Button"
+        size="large"
+        shape="rounded-full"
+      />
     </div>
   );
 }
